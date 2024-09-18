@@ -1,0 +1,92 @@
+.formBody {
+  margin: 100px auto;
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  align-items: center;
+  color: white;
+  text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+.formBody hr {
+  width: 90%;
+  margin: 0;
+}
+.formBody > div {
+  width: 90%;
+}
+.formBody > div label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.formBody > div [type=checkbox] {
+  height: 30px;
+}
+.formBody > div input,
+.formBody > div select {
+  border-radius: inherit;
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 100%;
+}
+.formBody button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background: purple;
+}
+.formBody button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.formBody button.disabled {
+  cursor: initial;
+  background-color: grey;
+}
+.formBody button.disabled:hover {
+  opacity: 1;
+}
+
+.popup {
+  text-align: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popup h1 {
+  background-color: white;
+  color: green;
+  width: 90%;
+  padding: 5px;
+}
+.popup h1.error {
+  color: red;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #232345;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */
